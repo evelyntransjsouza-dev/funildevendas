@@ -1,0 +1,6 @@
+{
+  "name": "Lopes Prospect & CNPJ Radar São Paulo",
+  "description": "Sistema de prospecção de CNPJs via BrasilAPI, radar de mapas com raio em São Paulo, filtro imobiliário e serviços, gestão de carteira para gestores e vendedores com políticas SQL RLS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+  }
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom styled map tiles for light theme */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background-color: #f1f5f9;
+  font-family: inherit;
+}
+
+.leaflet-control-zoom {
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+}
+
+.leaflet-control-zoom a {
+  background-color: #ffffff !important;
+  color: #1e3a8a !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background-color: #eff6ff !important;
+  color: #2563eb !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #ffffff !important;
+  color: #0f172a !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.leaflet-popup-tip {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+/* Scrollbar polish */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
